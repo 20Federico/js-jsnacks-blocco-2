@@ -5,10 +5,12 @@ se è dispari stampa il numero successivo.
  Occhio solo a non saltare troppi passaggi logici che per qualcuno sono ostici.
 */
 
+// costante definita dal numero inserito dall'utente
 const number = parseInt(prompt('inserisci un numero'));
 
+// se il numero è pari
 if (number % 2 === 0) {
-  console.log(number);
-} else {
-  console.log(number + 1);
+  alert(number);
+} else { // se il numero è dispari
+  alert(number + 1);
 };
