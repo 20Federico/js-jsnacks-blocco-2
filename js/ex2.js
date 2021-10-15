@@ -31,7 +31,4 @@ for (i = 0; i = (array1.length - array2.length); i++) {
   console.log(array1);
   console.log(array2);
 
-} else if (array1 = array2) {
-  console.log(array1);
-  console.log(array2);
 }
