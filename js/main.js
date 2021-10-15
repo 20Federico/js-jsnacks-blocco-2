@@ -10,7 +10,7 @@ const number = parseInt(prompt('inserisci un numero'));
 
 // se il numero è pari
 if (number % 2 === 0) {
-  alert(number);
+  alert(number); // restituisci il numero inserito
 } else { // se il numero è dispari
-  alert(number + 1);
+  alert(number + 1); // restituisci il numero inserito + 1
 };
